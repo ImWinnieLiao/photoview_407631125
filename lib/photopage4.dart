@@ -100,7 +100,7 @@ class _ImageBrowserState extends State<_ImageBrowser> {
         imageProvider: AssetImage(widget._images[widget._imageIndex]),
         minScale: PhotoViewComputedScale.contained * 0.6,
         maxScale: PhotoViewComputedScale.covered,
-        enableRotation: true,
+        enableRotation: false,
         backgroundDecoration: const BoxDecoration(
           color: Colors.blue,
         ));
